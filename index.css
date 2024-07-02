@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color:white;
+    color: grey;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+nav ul {
+    background-color: white;
+    overflow:hidden;
+    color: grey;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    list-style: none;
+    margin-left: 200px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    
+}
+nav ul li a:hover {
+    color: grey;
+    
+}
+
+section {
+    padding: 2em;
+    background-color: white;
+    margin: 1em 0;
+    padding-left: 200px;
+}
+
+#Home{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.right{
+    width: 70%;
+}
+
+section img.profile {
+    display: block;
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 1em;
+}
+
+#ime{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 22px;
+    color: grey;
+}
+#info{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+#socials img{
+    max-width: 30px;
+    display: inline;
+}
+
+#socials div{
+    display: inline;
+}
+
+div a img{
+    margin-right: 10px;
+}
+
+#fb{
+    margin-left: 130px;
+}
+
+.right h2{
+    color: grey;
+    font-weight: 200;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.right p{
+    color: grey;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    margin-right: 120px;
+}
+
+#ed{
+    color: grey;
+    line-height: 19px;
+}
+
+#Education h2{
+    color: grey;
+    font-weight: 200;
+}
+
+#Interests p{
+    color: grey;
+    margin-right: 150px;
+    line-height: 19px;
+    text-align: justify;
+}
+
+#Interests h2{
+    color: grey;
+    font-weight: 200;
+}
+
+#contact h2{
+    color: grey;
+    font-weight: 200;
+}
+
+#contact p{
+    color: grey;
+    line-height: 19px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color:white;
+    color: grey;
+    font-size: 16px;
+}
